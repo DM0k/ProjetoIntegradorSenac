@@ -9,4 +9,44 @@
 
 .sciName{
     font-size: small;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.cabecalho1 {
+    background-color: #2e2d2d;
+    color: #2d7041;
+}
+
+.fonteCabecalho {
+    color: #2d7041;
+}
+
+a:link{
+    color: #2d7041 !important;
+    font-weight: bold;
+    
+}
+
+a:link:hover{
+    color: white !important;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #2d7041, 1px -1px 0 #2d7041, -1px 1px 0 #2d7041, 1px 1px 0 #2d7041;
+}
+
+a:hover:visited{
+    color: white !important;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #2d7041, 1px -1px 0 #2d7041, -1px 1px 0 #2d7041, 1px 1px 0 #2d7041;
+}
+
+a:visited{
+    color: #2d7041 !important;
+    font-weight: bold;
+    
 }
