@@ -6,8 +6,8 @@ export default function CardAnimal(props) {
     return (
         <div className="card">
             <div className="card-body cardTemp">
-                <img src={props.Imagem} width={"100%"} height={"100%"}></img>
-                <h6 className="sciName">{props.sciName}</h6>
+                <img src={props.imagem} width={"100%"} height={"100%"}></img>
+                <h6 className="sciName">{props.sciNome}</h6>
                 <h4 className="card-title">{props.nome}</h4> 
                 <h6>Reino: {props.reino}</h6>
                 <h6>Filo: {props.filo}</h6>

@@ -25,8 +25,8 @@ export default function Home() {
           <div className="col-3">
             {
               listaAnimais.map((dados, index) => <CardAnimal key={index}
-                Imagem={dados.imagem}
-                sciName={dados.sciNome}
+                imagem={dados.imagem}
+                sciNome={dados.sciNome}
                 nome={dados.nome}
                 reino={dados.reino}
                 filo={dados.filo}

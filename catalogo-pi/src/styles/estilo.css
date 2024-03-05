@@ -23,6 +23,14 @@
     color: #2d7041;
 }
 
+.rodape1 {
+    background-color: #2e2d2d;
+    color: #2d7041;
+    position:absolute;
+    width:100%;
+    bottom:0px;
+}
+
 .fonteCabecalho {
     color: #2d7041;
 }
