@@ -4,6 +4,7 @@ import CustomCheckBox from "./CustomCheckBox";
 
 export default function CardAnimal(props) {
     return (
+        <div className="col-md-3">
         <div className="card">
             <div className="card-body cardTemp">
                 <img src={props.imagem} width={"100%"} height={"100%"}></img>
@@ -18,6 +19,7 @@ export default function CardAnimal(props) {
                 <h6>Espécie: {props.espec}</h6><br></br>
                 <p className="card-text">{props.descricao}</p>
             </div>
+        </div>
         </div>
     )
 }

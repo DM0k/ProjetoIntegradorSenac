@@ -22,7 +22,7 @@ export default function Home() {
       <div className="container-fluid fundo">
 
         <div className="row">
-          <div className="col-3">
+
             {
               listaAnimais.map((dados, index) => <CardAnimal key={index}
                 imagem={dados.imagem}
@@ -38,7 +38,7 @@ export default function Home() {
                 descricao={dados.descricao} ></CardAnimal>
               )
             }
-          </div>
+
 
         </div>
         <Rodape></Rodape>

@@ -3,8 +3,8 @@
 }
 
 .cardTemp {
-    background-color: #494747;
-    color: aliceblue;
+    background-color: #494747 !important;
+    color: aliceblue;  
 }
 
 .sciName{
