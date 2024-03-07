@@ -1,13 +1,15 @@
+@import url('https://fonts.cdnfonts.com/css/merchant');
+
 .fundo {
     background-color: #2e2d2d;
 }
 
 .cardTemp {
     background-color: #494747 !important;
-    color: aliceblue;  
+    color: aliceblue;
 }
 
-.sciName{
+.sciName {
     font-size: small;
     text-align: center;
     font-weight: lighter;
@@ -23,38 +25,41 @@
     color: #2d7041;
 }
 
+.Oceanation {
+    font-family: 'Merchant', sans-serif;
+    font-size: xx-large !important;
+    text-shadow: -1px -1px 0 rgb(175, 230, 175), 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    color: aliceblue !important;
+}
+
 .rodape1 {
     background-color: #2e2d2d;
     color: #2d7041;
-    position:absolute;
-    width:100%;
-    bottom:0px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
 }
 
-.fonteCabecalho {
-    color: #2d7041;
-}
-
-a:link{
+a:link {
     color: #2d7041 !important;
     font-weight: bold;
-    
+
 }
 
-a:link:hover{
+a:link:hover {
     color: white !important;
     font-weight: bold;
     text-shadow: -1px -1px 0 #2d7041, 1px -1px 0 #2d7041, -1px 1px 0 #2d7041, 1px 1px 0 #2d7041;
 }
 
-a:hover:visited{
+a:hover:visited {
     color: white !important;
     font-weight: bold;
     text-shadow: -1px -1px 0 #2d7041, 1px -1px 0 #2d7041, -1px 1px 0 #2d7041, 1px 1px 0 #2d7041;
 }
 
-a:visited{
+a:visited {
     color: #2d7041 !important;
     font-weight: bold;
-    
+
 }

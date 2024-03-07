@@ -5,7 +5,7 @@ import CustomCheckBox from "./CustomCheckBox";
 export default function CardAnimal(props) {
     return (
         <div className="col-md-3">
-        <div className="card">
+        <div className="card mb-3">
             <div className="card-body cardTemp">
                 <img src={props.imagem} width={"100%"} height={"100%"}></img>
                 <h6 className="sciName">{props.sciNome}</h6>

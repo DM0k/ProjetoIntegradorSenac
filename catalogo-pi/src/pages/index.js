@@ -8,23 +8,35 @@ import Rodape from "@/componets/Rodape";
 export default function Home() {
 
   const [listaAnimais, setListaAnimais] = useState([]);
+  const [listaAnimaisFiltrados, setListaAnimaisFiltrados] = useState([]);
 
 
 
   useEffect(() => {
     axios.get('https://localhost:7017/api/Animais/')
-      .then(res => setListaAnimais(res.data));
+      .then(res => {
+        setListaAnimais(res.data);
+        setListaAnimaisFiltrados(res.data);
+      });
   }, [])
+
+  function handlePesquisar(filtro) {
+    const valorFiltro = filtro.target.value
+
+    const filtrado = listaAnimais.filter((dados) => dados.nome.toLowerCase().includes(valorFiltro.toLowerCase()))
+    setListaAnimaisFiltrados(filtrado)
+    console.log(filtro)
+  }
 
   return (
 
-    <><Cabecalho></Cabecalho>
+    <><Cabecalho pesquisar={handlePesquisar}></Cabecalho>
       <div className="container-fluid fundo">
 
         <div className="row">
 
             {
-              listaAnimais.map((dados, index) => <CardAnimal key={index}
+              listaAnimaisFiltrados.map((dados, index) => <CardAnimal key={index}
                 imagem={dados.imagem}
                 sciNome={dados.sciNome}
                 nome={dados.nome}
